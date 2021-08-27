@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 dotenv.config();
 import path from 'path';
 import express from "express";
-import Conexao from "../database/conexao";
+import Conexao from "../database/conexao.js";
 import mongoose from "mongoose";
-import GetAll from '../routes/fetchAll';
+import GetAll from '../routes/fetchAll.js';
 
 
 Conexao.catch((err)=>{

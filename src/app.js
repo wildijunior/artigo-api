@@ -1,4 +1,4 @@
-import mark01 from "./config/server";
+import mark01 from "./config/server.js";
 
 const app = mark01();
 const port = process.env.PORT || 3333;

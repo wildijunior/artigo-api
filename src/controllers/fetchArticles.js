@@ -1,4 +1,4 @@
-import Article from "../database/models/articleModel";
+import Article from "../database/models/articleModel.js";
 import path from 'path';
 
 export default {

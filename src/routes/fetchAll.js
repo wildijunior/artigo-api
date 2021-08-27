@@ -1,4 +1,4 @@
-import fetchArticles from "../controllers/fetchArticles";
+import fetchArticles from "../controllers/fetchArticles.js";
 import Router from "express";
 
 const routes = Router();
